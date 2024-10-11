@@ -1,0 +1,30 @@
+on: push
+name: Build
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'pnpm'
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build
+        env:
+          NODE_ENV: production
+          BUILD_PRECOMPRESS: 'false'
+        run: pnpm run build
+      - name: Deploy
+        uses: cloudflare/pages-action@v1
+        with:
+          directory: build
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          projectName: phyrone
+
