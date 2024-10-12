@@ -2,7 +2,7 @@
 	import { GithubIcon, HomeIcon, NewspaperIcon } from 'lucide-svelte';
 
 	import NavbarButton from './NavbarButton.svelte';
-	import { siMastodon, siYoutube } from 'simple-icons';
+	import { siDiscord, siMastodon, siYoutube } from 'simple-icons';
 	import LucidedSimpleIcon from '$lib/LucidedSimpleIcon.svelte';
 </script>
 
@@ -44,6 +44,13 @@
 				href="https://www.youtube.com/@phyrone"
 			>
 				<LucidedSimpleIcon icon={siYoutube} fill="currentcolor" strokeWidth={0} />
+			</a>
+			<a class="join-item btn btn-sm btn-accent rounded-sm"
+				 aria-label="Join Discord"
+				 target="_blank"
+				 href="https://discord.com/invite/AYZsCKEz"
+			>
+				<LucidedSimpleIcon icon={siDiscord} fill="currentcolor" strokeWidth={0} />
 			</a>
 		</div>
 	</div>
