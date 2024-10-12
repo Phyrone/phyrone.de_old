@@ -76,7 +76,7 @@ importers:
         version: 13.12.0
       swapy:
         specifier: ^0.4.1
-        version: 0.4.1
+        version: 0.4.2
       unified:
         specifier: ^11.0.5
         version: 11.0.5
@@ -3588,8 +3588,8 @@ packages:
     resolution: {integrity: sha512-IY1rnGr6izd10B0A8LqsBfmlT5OILVuZ7XsI0vdGPEvuonFV7NYEUK4dAkm9Zg2q0Um92kYjTpS1CAP3Nh/KWw==}
     engines: {node: '>=16'}
 
-  swapy@0.4.1:
-    resolution: {integrity: sha512-8lL1CwOc3kuDVop2O/733+udNqisuwnex/8nTxYYDBaXa1pAOna/uDcOTfRK9zAdTYZ+3oStQ+QDJ7tPwU1fAA==}
+  swapy@0.4.2:
+    resolution: {integrity: sha512-vxs9OjXCfaQRXUxUBZb7KAWSAJeWlOYsG8N6lJBseEaQZ3XfxW6uIvJo/ebyxQ3mdFxNHEWhxPSbfrfCvevh6Q==}
 
   systemjs@6.15.1:
     resolution: {integrity: sha512-Nk8c4lXvMB98MtbmjX7JwJRgJOL8fluecYCfCeYBznwmpOs8Bf15hLM6z4z71EDAhQVrQrI+wt1aLWSXZq+hXA==}
@@ -7677,7 +7677,7 @@ snapshots:
       magic-string: 0.30.11
       periscopic: 3.1.0
 
-  swapy@0.4.1: {}
+  swapy@0.4.2: {}
 
   systemjs@6.15.1: {}
 
