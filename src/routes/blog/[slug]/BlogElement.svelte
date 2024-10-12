@@ -1,11 +1,11 @@
 <script lang="ts">
 	import type { ArticleElement } from '$lib/schema/blog-article';
 	import AllElements from './AllElements.svelte';
-	import PictureRender from '$lib/PictureRender.svelte';
+	import PictureElement from './PictureElement.svelte';
 	import CodeHooksElement from './CodeHooksElement.svelte';
 	import HeadingElement from './HeadingElement.svelte';
 	import PictureNotFound from './PictureNotFound.svelte';
-	import { ImageIcon, ShellIcon } from 'lucide-svelte';
+	import { ShellIcon } from 'lucide-svelte';
 
 	export let element: ArticleElement;
 </script>
@@ -39,7 +39,7 @@
 		</del>
 	{/if}
 {:else if element.t === '@'}
-	<PictureRender data={element.d} alt={element.a} />
+	<PictureElement data={element.d} alt={element.a} />
 {:else if element.t === '*'}
 	<PictureNotFound />
 {:else if element.t === '>'}
