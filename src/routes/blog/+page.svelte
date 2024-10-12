@@ -3,6 +3,7 @@
 
 	export let data: PageData;
 </script>
+
 <svelte:head>
 	<title>Phyrone | Blog</title>
 </svelte:head>

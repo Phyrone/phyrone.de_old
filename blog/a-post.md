@@ -41,6 +41,7 @@ class Main {
 ```
 no lang code 123
 ```
+
 Est in et et deleniti molestias autem ullam. Molestias rerum rem animi voluptatem quisquam. Quisquam eveniet ipsum sit
 voluptas eum corrupti tempore praesentium autem odio ab. Saepe aut autem quia eos qui et. `inline code` Sint minus
 repellendus quis
@@ -67,16 +68,14 @@ graph TD
 
 www.example.com, https://example.com, and contact@example.com.
 
-
-
 ## Strikethrough
 
 ~one~ or ~~two~~ tildes.
 
 ## Table
 
-| a | b | c | d |
-|---|:--|--:|:-:|
+| a   | b   |   c |  d  |
+| --- | :-- | --: | :-: |
 
 ## Tasklist
 

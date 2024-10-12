@@ -17,7 +17,7 @@
 		<AllElements elements={element.i} />
 	</p>
 {:else if element.t === 'h'}
-	<HeadingElement element={element}>
+	<HeadingElement {element}>
 		<AllElements elements={element.i} />
 	</HeadingElement>
 {:else if element.t === '§'}

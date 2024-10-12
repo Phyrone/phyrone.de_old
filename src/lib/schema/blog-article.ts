@@ -57,7 +57,7 @@ export const PictureElement = z.object({
 export type PictureElement = z.infer<typeof PictureElement>;
 
 export const PictureNotFountElement = z.object({
-	t: z.literal('*'),
+	t: z.literal('*')
 });
 export type PictureNotFountElement = z.infer<typeof PictureNotFountElement>;
 

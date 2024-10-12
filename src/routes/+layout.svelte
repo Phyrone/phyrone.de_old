@@ -11,5 +11,5 @@
 		<slot />
 	</main>
 	<!-- TODO footer -->
-	<FooterBar/>
+	<FooterBar />
 </div>

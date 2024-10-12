@@ -1,6 +1,4 @@
 <script lang="ts">
-
-
 	import { mermaid_init } from '$lib/get_mermaid';
 	import { building } from '$app/environment';
 
@@ -13,10 +11,8 @@
 			await mermaid.run({
 				nodes: [element]
 			});
-
 		})();
 	}
-
 </script>
 
 <pre use:init>

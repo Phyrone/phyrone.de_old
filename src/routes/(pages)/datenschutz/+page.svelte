@@ -341,10 +341,10 @@
 <p>
 	Weitere Informationen &uuml;ber Datenschutz bei YouTube finden Sie in deren
 	Datenschutzerkl&auml;rung unter: <a
-	href="https://policies.google.com/privacy?hl=de"
-	target="_blank"
-	rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a
->.
+		href="https://policies.google.com/privacy?hl=de"
+		target="_blank"
+		rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a
+	>.
 </p>
 <h3>Font Awesome (lokales Hosting)</h3>
 <p>
@@ -354,8 +354,8 @@
 <p>
 	Weitere Informationen zu Font Awesome finden Sie in der Datenschutzerkl&auml;rung f&uuml;r Font
 	Awesome unter: <a href="https://fontawesome.com/privacy" target="_blank" rel="noopener noreferrer"
->https://fontawesome.com/privacy</a
->.
+		>https://fontawesome.com/privacy</a
+	>.
 </p>
 <h3>Google Maps</h3>
 <p>
@@ -383,10 +383,10 @@
 <p>
 	Die Daten&uuml;bertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission
 	gest&uuml;tzt. Details finden Sie hier: <a
-	href="https://privacy.google.com/businesses/gdprcontrollerterms/"
-	target="_blank"
-	rel="noopener noreferrer">https://privacy.google.com/businesses/gdprcontrollerterms/</a
->
+		href="https://privacy.google.com/businesses/gdprcontrollerterms/"
+		target="_blank"
+		rel="noopener noreferrer">https://privacy.google.com/businesses/gdprcontrollerterms/</a
+	>
 	und
 	<a
 		href="https://privacy.google.com/businesses/gdprcontrollerterms/sccs/"
@@ -397,10 +397,10 @@
 <p>
 	Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerkl&auml;rung von
 	Google: <a
-	href="https://policies.google.com/privacy?hl=de"
-	target="_blank"
-	rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a
->.
+		href="https://policies.google.com/privacy?hl=de"
+		target="_blank"
+		rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a
+	>.
 </p>
 <h3>OpenStreetMap</h3>
 <p>Wir nutzen den Kartendienst von OpenStreetMap (OSM).</p>
@@ -457,10 +457,10 @@
 </p>
 <p>
 	Weitere Informationen hierzu finden Sie in der Datenschutzerkl&auml;rung von SoundCloud unter: <a
-	href="https://soundcloud.com/pages/privacy"
-	target="_blank"
-	rel="noopener noreferrer">https://soundcloud.com/pages/privacy</a
->.
+		href="https://soundcloud.com/pages/privacy"
+		target="_blank"
+		rel="noopener noreferrer">https://soundcloud.com/pages/privacy</a
+	>.
 </p>
 <p>
 	Wenn Sie nicht w&uuml;nschen, dass SoundCloud den Besuch dieser Website Ihrem SoundCloud-
@@ -473,10 +473,10 @@
 	Spotify AB, Birger Jarlsgatan 61, 113 56 Stockholm in Schweden. Die Spotify Plugins erkennen Sie
 	an dem gr&uuml;nen Logo auf dieser Website. Eine &Uuml;bersicht &uuml;ber die Spotify-Plugins
 	finden Sie unter: <a
-	href="https://developer.spotify.com"
-	target="_blank"
-	rel="noopener noreferrer">https://developer.spotify.com</a
->.
+		href="https://developer.spotify.com"
+		target="_blank"
+		rel="noopener noreferrer">https://developer.spotify.com</a
+	>.
 </p>
 <p>
 	Dadurch kann beim Besuch dieser Website &uuml;ber das Plugin eine direkte Verbindung zwischen
@@ -504,10 +504,10 @@
 </p>
 <p>
 	Weitere Informationen hierzu finden Sie in der Datenschutzerkl&auml;rung von Spotify: <a
-	href="https://www.spotify.com/de/legal/privacy-policy/"
-	target="_blank"
-	rel="noopener noreferrer">https://www.spotify.com/de/legal/privacy-policy/</a
->.
+		href="https://www.spotify.com/de/legal/privacy-policy/"
+		target="_blank"
+		rel="noopener noreferrer">https://www.spotify.com/de/legal/privacy-policy/</a
+	>.
 </p>
 <p>
 	Wenn Sie nicht w&uuml;nschen, dass Spotify den Besuch dieser Website Ihrem Spotify-Nutzerkonto
@@ -515,8 +515,8 @@
 </p>
 <p>
 	<strong>Quelle:</strong><a class="btn btn-link" href="https://www.e-recht24.de"
->https://www.e-recht24.de</a
->
+		>https://www.e-recht24.de</a
+	>
 </p>
 
 <!-- Cloudflare -->
@@ -551,21 +551,21 @@
 <p>
 	Weitere Informationen zu Widerspruchs- und Beseitigungsmöglichkeiten gegenüber Cloudflare finden
 	Sie unter: <a
-	href="https://www.cloudflare.com/resources/assets/slt3lc6tev37/1M1j5uuFDuLTYiZJJDPBag/770322411bcac7f8bcc350e31b1e8319/Customer_DPA_v.3_1_-_de-de_19_Oct_2020.pdf"
->Cloudflare DPA</a
->
+		href="https://www.cloudflare.com/resources/assets/slt3lc6tev37/1M1j5uuFDuLTYiZJJDPBag/770322411bcac7f8bcc350e31b1e8319/Customer_DPA_v.3_1_-_de-de_19_Oct_2020.pdf"
+		>Cloudflare DPA</a
+	>
 </p>
 <p>
 	Cloudflare hat Compliance-Maßnahmen für internationale Datenübermittlungen umgesetzt. Diese gelten
 	für alle weltweiten Aktivitäten, bei denen Cloudflare personenbezogene Daten von natürlichen
 	Personen in der EU verarbeitet. Diese Maßnahmen basieren auf den EU-Standardvertragsklauseln
 	(SCCs). Weitere Informationen finden Sie unter: <a
-	href="https://www.cloudflare.com/cloudflare_customer_SCCs-German.pdf"
->https://www.cloudflare.com/cloudflare_customer_SCCs-German.pdf</a
->
+		href="https://www.cloudflare.com/cloudflare_customer_SCCs-German.pdf"
+		>https://www.cloudflare.com/cloudflare_customer_SCCs-German.pdf</a
+	>
 </p>
 <p>
 	<strong>Quelle:</strong><a class="btn btn-link" href="https://opr.vc/docs/cdn/cloudflare/"
->https://opr.vc/docs/cdn/cloudflare/</a
->(Creative Commons Zero v1.0 Universal)
+		>https://opr.vc/docs/cdn/cloudflare/</a
+	>(Creative Commons Zero v1.0 Universal)
 </p>

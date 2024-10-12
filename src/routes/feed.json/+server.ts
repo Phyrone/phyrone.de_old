@@ -1,3 +1,4 @@
+/*
 import type { RequestHandler } from './$types';
 import { text } from '@sveltejs/kit';
 import { create_feed } from '$lib/server/feed';
@@ -13,3 +14,4 @@ export const GET: RequestHandler = async ({ fetch }) => {
 		}
 	});
 };
+*/

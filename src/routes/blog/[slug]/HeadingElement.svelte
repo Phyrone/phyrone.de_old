@@ -1,9 +1,7 @@
 <script lang="ts">
-
 	import type { HeadingElement } from '$lib/schema/blog-article';
 
 	export let element: HeadingElement;
-
 </script>
 
 {#if element.l === 1}

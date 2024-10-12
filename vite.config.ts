@@ -10,7 +10,7 @@ export default defineConfig({
 		blurhash_plugin(),
 		imagetools({
 			cache: {
-				enabled: true,
+				enabled: true
 			},
 			removeMetadata: true
 		})

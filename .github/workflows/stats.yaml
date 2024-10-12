@@ -1,10 +1,10 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch: { }
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}
   push:
-    branches: [ "main" ]
+    branches: ['main']
 
 jobs:
   github-metrics:
@@ -29,7 +29,6 @@ jobs:
           plugin_introduction: yes
           # IsometricCalendar (https://github.com/lowlighter/metrics/tree/master/source/plugins/isocalendar)
           plugin_isocalendar: true
-
 
           #PageSpeed (https://github.com/lowlighter/metrics/tree/master/source/plugins/pagespeed)
           plugin_pagespeed: true
@@ -66,6 +65,3 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_secrets: true
-
-
-

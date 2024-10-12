@@ -1,5 +1,4 @@
 <script lang="ts">
-
 	import { ImageIcon } from 'lucide-svelte';
 </script>
 

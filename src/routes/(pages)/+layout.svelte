@@ -1,3 +1,3 @@
 <div class:content-wrapper={true}>
-	<slot/>
+	<slot />
 </div>
