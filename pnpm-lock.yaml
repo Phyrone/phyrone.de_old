@@ -86,7 +86,7 @@ importers:
         version: 1.48.0
       '@sveltejs/adapter-auto':
         specifier: ^3.2.5
-        version: 3.2.5(@sveltejs/kit@2.7.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1)))(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1)))
+        version: 3.3.0(@sveltejs/kit@2.7.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1)))(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1)))
       '@sveltejs/adapter-static':
         specifier: ^3.0.5
         version: 3.0.5(@sveltejs/kit@2.7.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1)))(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1)))
@@ -1159,8 +1159,8 @@ packages:
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
     engines: {node: '>=10'}
 
-  '@sveltejs/adapter-auto@3.2.5':
-    resolution: {integrity: sha512-27LR+uKccZ62lgq4N/hvyU2G+hTP9fxWEAfnZcl70HnyfAjMSsGk1z/SjAPXNCD1mVJIE7IFu3TQ8cQ/UH3c0A==}
+  '@sveltejs/adapter-auto@3.3.0':
+    resolution: {integrity: sha512-EJZqY7eMM+bdbR898Xt9ufawUHLPJu7w3wPr4Cc+T1iIDf3fufVLWg4C71OluIqsdJqv85E4biKuHo3XXIY0PQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -4558,7 +4558,7 @@ snapshots:
 
   '@sindresorhus/is@4.6.0': {}
 
-  '@sveltejs/adapter-auto@3.2.5(@sveltejs/kit@2.7.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1)))(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1)))':
+  '@sveltejs/adapter-auto@3.3.0(@sveltejs/kit@2.7.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1)))(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1)))':
     dependencies:
       '@sveltejs/kit': 2.7.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1)))(svelte@5.0.4)(vite@5.4.9(sass-embedded@1.80.2)(terser@5.34.1))
       import-meta-resolve: 4.1.0
