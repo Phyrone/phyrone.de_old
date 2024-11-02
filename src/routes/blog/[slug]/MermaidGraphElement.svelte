@@ -2,7 +2,11 @@
 	import { mermaid_init } from '$lib/get_mermaid';
 	import { building } from '$app/environment';
 
-	export let code: string;
+	interface Props {
+		code: string;
+	}
+
+	let { code }: Props = $props();
 
 	function init(element: HTMLElement) {
 		if (building) return;

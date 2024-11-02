@@ -14,11 +14,15 @@
 		<div class="join">
 			<NavbarButton href="/">
 				<HomeIcon />
-				<svelte:fragment slot="expanded">Home</svelte:fragment>
+				{#snippet expanded()}
+								Home
+							{/snippet}
 			</NavbarButton>
 			<NavbarButton href="/blog">
 				<NewspaperIcon />
-				<svelte:fragment slot="expanded">Blog</svelte:fragment>
+				{#snippet expanded()}
+								Blog
+							{/snippet}
 			</NavbarButton>
 		</div>
 	</div>

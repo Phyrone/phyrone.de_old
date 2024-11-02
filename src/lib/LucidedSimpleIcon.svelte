@@ -1,12 +1,16 @@
 <script>
 	import { Icon } from 'lucide-svelte';
 
+	
 	/**
-	 * @type {import('simple-icons').SimpleIcon}
+	 * @typedef {Object} Props
+	 * @property {import('simple-icons').SimpleIcon} icon
 	 */
-	export let icon;
 
-	const iconNode = [['path', { d: icon.path }]];
+	/** @type {Props & { [key: string]: any }} */
+	let { ...props } = $props();
+
+	const iconNode = [['path', { d: props.icon.path }]];
 </script>
 
-<Icon name={icon.slug} {...$$props} {iconNode} />
+<Icon name={props.icon.slug} {...props} {iconNode} />

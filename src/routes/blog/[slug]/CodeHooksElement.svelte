@@ -2,9 +2,13 @@
 	import CodeElement from './CodeElement.svelte';
 	import MermaidGraphElement from './MermaidGraphElement.svelte';
 
-	export let language: string | undefined;
-	export let code: string;
-	export let inline: boolean;
+	interface Props {
+		language: string | undefined;
+		code: string;
+		inline: boolean;
+	}
+
+	let { language, code, inline }: Props = $props();
 </script>
 
 {#if inline}

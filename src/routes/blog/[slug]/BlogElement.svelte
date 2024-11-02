@@ -7,7 +7,11 @@
 	import PictureNotFound from './PictureNotFound.svelte';
 	import { ShellIcon } from 'lucide-svelte';
 
-	export let element: ArticleElement;
+	interface Props {
+		element: ArticleElement;
+	}
+
+	let { element }: Props = $props();
 </script>
 
 {#if typeof element === 'string'}

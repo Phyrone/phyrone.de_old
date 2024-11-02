@@ -1,14 +1,20 @@
 <script lang="ts">
+	import { run } from 'svelte/legacy';
+
 	import 'highlight.js/scss/github-dark.scss';
 	import '@fontsource-variable/jetbrains-mono/wght.css';
 	import hljs, { type HighlightResult, type AutoHighlightResult } from 'highlight.js';
 
-	export let language: string | undefined;
-	export let code: string;
-	export let inline: boolean;
+	interface Props {
+		language: string | undefined;
+		code: string;
+		inline: boolean;
+	}
 
-	let highlight: HighlightResult | AutoHighlightResult;
-	$: {
+	let { language, code, inline }: Props = $props();
+
+	let highlight: HighlightResult | AutoHighlightResult = $state();
+	run(() => {
 		try {
 			if (language) {
 				highlight = hljs.highlight(code, { language, ignoreIllegals: true });
@@ -19,7 +25,7 @@
 		} catch (_e) {
 			highlight = hljs.highlightAuto(code);
 		}
-	}
+	});
 </script>
 
 <code

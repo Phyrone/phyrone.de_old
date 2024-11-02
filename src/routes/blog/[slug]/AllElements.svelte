@@ -2,9 +2,13 @@
 	import { ArticleElement } from '$lib/schema/blog-article';
 	import BlogElement from './BlogElement.svelte';
 
-	export let elements: unknown;
-	let elementsarray: ArticleElement[] | 'error';
-	$: elementsarray = elements as ArticleElement[];
+	interface Props {
+		elements: unknown;
+	}
+
+	let { elements }: Props = $props();
+	let elementsarray: ArticleElement[] | 'error' = $derived(elements as ArticleElement[]);
+	
 </script>
 
 {#each elementsarray as element}

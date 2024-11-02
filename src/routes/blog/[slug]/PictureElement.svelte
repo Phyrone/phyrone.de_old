@@ -3,8 +3,12 @@
 
 	import type { PictureData } from '$lib/schema/picture-data';
 
-	export let alt: string | undefined;
-	export let data: PictureData;
+	interface Props {
+		alt: string | undefined;
+		data: PictureData;
+	}
+
+	let { alt, data }: Props = $props();
 	const bg = `background: ${blurhashToCssGradientString(data.b)};`;
 
 </script>

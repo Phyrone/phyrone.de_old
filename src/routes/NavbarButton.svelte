@@ -1,9 +1,15 @@
 <script lang="ts">
-	export let href: string;
+	interface Props {
+		href: string;
+		children?: import('svelte').Snippet;
+		expanded?: import('svelte').Snippet;
+	}
+
+	let { href, children, expanded }: Props = $props();
 </script>
 
 <a class="join-item btn btn-sm btn-ghost rounded-sm" {href}>
-	<slot />
+	{@render children?.()}
 	<!-- TODO maybe support retracting text -->
-	<slot name="expanded" />
+	{@render expanded?.()}
 </a>
