@@ -32,7 +32,7 @@ export default tseslint.config(
 	{
 		rules: {
 			'@typescript-eslint/no-explicit-any': 'off',
-			'svelte/ no-at-html-tags': 'off'
+			'svelte/no-at-html-tags': 'off'
 		}
 	}
 );
