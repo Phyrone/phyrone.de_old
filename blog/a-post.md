@@ -49,7 +49,7 @@ consequatur non error in ipsa aliquam et animi dolorem. Accusantium cumque qui t
 voluptatem voluptas facere. Qui occaecati sit qui excepturi cupiditate. Facilis consequatur quibusdam sit aut eaque
 voluptas voluptas necessitatibus nemo amet dicta dolor. Totam maxime molestias aut placeat autem modi et magni sed
 mollitia quis tempora corporis.
-[^1]: My reference.
+.
 
 ![mountains](./media/brokepicasso_abstract_matrix_colors_eeef5630-7a51-447e-82cc-7943cab0c59c.png)
 
@@ -66,8 +66,7 @@ graph TD
 
 ## Autolink literals
 
-www.example.com, https://example.com, and contact@example.com.
-
+<www.example.com>, https://example.com, and contact@example.com.
 ## Strikethrough
 
 ~one~ or ~~two~~ tildes.
