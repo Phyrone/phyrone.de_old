@@ -1,7 +1,6 @@
 <script>
 	import { Icon } from 'lucide-svelte';
 
-	
 	/**
 	 * @typedef {Object} Props
 	 * @property {import('simple-icons').SimpleIcon} icon

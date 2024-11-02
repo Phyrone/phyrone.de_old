@@ -15,14 +15,14 @@
 			<NavbarButton href="/">
 				<HomeIcon />
 				{#snippet expanded()}
-								Home
-							{/snippet}
+					Home
+				{/snippet}
 			</NavbarButton>
 			<NavbarButton href="/blog">
 				<NewspaperIcon />
 				{#snippet expanded()}
-								Blog
-							{/snippet}
+					Blog
+				{/snippet}
 			</NavbarButton>
 		</div>
 	</div>
@@ -49,10 +49,11 @@
 			>
 				<LucidedSimpleIcon icon={siYoutube} fill="currentcolor" strokeWidth={0} />
 			</a>
-			<a class="join-item btn btn-sm btn-accent rounded-sm"
-				 aria-label="Join Discord"
-				 target="_blank"
-				 href="https://discord.com/invite/AYZsCKEz"
+			<a
+				class="join-item btn btn-sm btn-accent rounded-sm"
+				aria-label="Join Discord"
+				target="_blank"
+				href="https://discord.com/invite/AYZsCKEz"
 			>
 				<LucidedSimpleIcon icon={siDiscord} fill="currentcolor" strokeWidth={0} />
 			</a>

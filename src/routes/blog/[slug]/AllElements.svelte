@@ -8,7 +8,6 @@
 
 	let { elements }: Props = $props();
 	let elementsarray: ArticleElement[] | 'error' = $derived(elements as ArticleElement[]);
-	
 </script>
 
 {#each elementsarray as element}

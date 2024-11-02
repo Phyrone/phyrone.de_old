@@ -38,8 +38,7 @@
 	{#if inline}
 		{@html highlight.value}
 	{:else}
-		<pre class="overflow-x-auto w-full"
-			class:jb-mono-font={!inline}>{@html highlight.value}</pre>
+		<pre class="overflow-x-auto w-full" class:jb-mono-font={!inline}>{@html highlight.value}</pre>
 	{/if}
 </code>
 
