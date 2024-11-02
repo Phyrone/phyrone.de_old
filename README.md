@@ -1,5 +1,7 @@
 # create-svelte
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/49cb23f4dcd4480aafaf786288f3d8e5)](https://app.codacy.com/gh/Phyrone/phyrone.de?utm_source=github.com&utm_medium=referral&utm_content=Phyrone/phyrone.de&utm_campaign=Badge_Grade)
+
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
 ## Creating a project
