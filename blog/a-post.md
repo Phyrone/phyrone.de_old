@@ -86,3 +86,14 @@ graph TD
 :::note{#header1 type=alert}
 this is a note
 :::
+
+## Mermaid
+
+```mermaid
+graph TD
+;
+    A --> B;
+    A --> C;
+    B --> D;
+    C --> D;
+```

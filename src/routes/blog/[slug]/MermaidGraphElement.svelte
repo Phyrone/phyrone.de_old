@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { mermaid_init } from '$lib/get_mermaid';
 	import { building } from '$app/environment';
 
 	interface Props {
@@ -11,7 +10,8 @@
 	function init(element: HTMLElement) {
 		if (building) return;
 		(async () => {
-			const mermaid = await mermaid_init;
+			const mermaid = await import('mermaid')
+				.then((module) => module.default);
 			await mermaid.run({
 				nodes: [element]
 			});

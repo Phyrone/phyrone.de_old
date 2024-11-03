@@ -25,7 +25,7 @@
 			return hljs.highlightAuto(code);
 		}
 	});
-	
+
 </script>
 
 <code
