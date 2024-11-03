@@ -1,4 +1,3 @@
-/*
 import { Feed, type Item as FeedItem } from 'feed';
 import { all_articles } from './posts';
 
@@ -42,4 +41,3 @@ export async function create_feed(fetch: FetchFunction): Promise<Feed> {
 
 	return feed;
 }
-*/
