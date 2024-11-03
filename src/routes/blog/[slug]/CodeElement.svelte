@@ -13,19 +13,19 @@
 
 	let { language, code, inline }: Props = $props();
 
-	let highlight: HighlightResult | AutoHighlightResult = $state();
-	run(() => {
+	let highlight: HighlightResult | AutoHighlightResult = $derived.by(() => {
 		try {
 			if (language) {
-				highlight = hljs.highlight(code, { language, ignoreIllegals: true });
+				return hljs.highlight(code, { language, ignoreIllegals: true });
 			} else {
-				highlight = hljs.highlightAuto(code);
+				return hljs.highlightAuto(code);
 			}
 			// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		} catch (_e) {
-			highlight = hljs.highlightAuto(code);
+			return hljs.highlightAuto(code);
 		}
 	});
+	
 </script>
 
 <code
@@ -43,8 +43,8 @@
 </code>
 
 <style>
-	.jb-mono-font {
-		font-family: 'JetBrains Mono Variable', monospace;
-		font-variant-ligatures: normal;
-	}
+    .jb-mono-font {
+        font-family: 'JetBrains Mono Variable', monospace;
+        font-variant-ligatures: normal;
+    }
 </style>
