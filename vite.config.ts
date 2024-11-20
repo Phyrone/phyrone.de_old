@@ -17,5 +17,6 @@ export default defineConfig({
 	],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
-	}
+	},
+	envPrefix: ['BUILD_', 'VITE_']
 });
