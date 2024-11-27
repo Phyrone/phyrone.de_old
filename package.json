@@ -21,7 +21,7 @@
 		"@sveltejs/adapter-auto": "^3.2.5",
 		"@sveltejs/adapter-static": "^3.0.5",
 		"@sveltejs/kit": "^2.7.0",
-		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@swc/html": "^1.7.35",
 		"@tailwindcss/container-queries": "^0.1.1",
 		"@types/eslint": "^9.6.1",
