@@ -170,7 +170,7 @@ importers:
         version: 5.2.9
       svelte-check:
         specifier: ^4.0.5
-        version: 4.0.5(svelte@5.2.9)(typescript@5.7.2)
+        version: 4.0.5(picomatch@4.0.2)(svelte@5.2.9)(typescript@5.7.2)
       tailwindcss:
         specifier: ^3.4.13
         version: 3.4.15
@@ -185,7 +185,7 @@ importers:
         version: 6.0.1(@types/node@22.8.6)(jiti@1.21.6)(sass-embedded@1.81.0)(terser@5.34.1)(yaml@2.6.1)
       vite-imagetools:
         specifier: ^7.0.4
-        version: 7.0.4(rollup@4.27.4)
+        version: 7.0.5(rollup@4.27.4)
       vitest:
         specifier: ^2.1.2
         version: 2.1.6(@types/node@22.8.6)(jiti@1.21.6)(sass-embedded@1.81.0)(terser@5.34.1)(yaml@2.6.1)
@@ -1096,8 +1096,8 @@ packages:
   '@polka/url@1.0.0-next.28':
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
 
-  '@rollup/pluginutils@5.1.2':
-    resolution: {integrity: sha512-/FIdS3PyZ39bjZlwqFnWqCOVnW7o963LtKMwQOD0NhQqw22gSr2YY1afu3FxRip4ZCZNsD5jq6Aaz6QV3D/Njw==}
+  '@rollup/pluginutils@5.1.3':
+    resolution: {integrity: sha512-Pnsb6f32CD2W3uCaLZIzDmeFyQ2b8UWMFI7xtwUezpcGBDVDW6y9XgAWIlARiGAo6eNF5FK5aQTr0LFyNyqq5A==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -2418,8 +2418,8 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
-  imagetools-core@7.0.1:
-    resolution: {integrity: sha512-XDUx3Ac1VrZ4XF5eAJNYdHbFXRPNyebHFrwJsZ4WHb7X2MitOVW23cFphSDByT3MH5rdWdxKr4edSW2agChvDg==}
+  imagetools-core@7.0.2:
+    resolution: {integrity: sha512-nrLdKLJHHXd8MitwlXK6/h1TSwGaH3X1DZ3z6yMv/tX7dJ12ecLxZ6P5jgKetfIFh8IJwH9fCWMoTA8ixg0VVA==}
     engines: {node: '>=18.0.0'}
 
   immutable@5.0.2:
@@ -2936,6 +2936,10 @@ packages:
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+
+  picomatch@4.0.2:
+    resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
+    engines: {node: '>=12'}
 
   pify@2.3.0:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
@@ -3632,8 +3636,8 @@ packages:
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
 
-  vite-imagetools@7.0.4:
-    resolution: {integrity: sha512-C9C7b2p/8/TCN2g26tE9haoer2i8K4x0v2RXUiHsIjiz221vQuKItCQ+VyiVCsUMPXfJC/tlZsmCZVBz5jh7uA==}
+  vite-imagetools@7.0.5:
+    resolution: {integrity: sha512-OOvVnaBTqJJ2J7X1cM1qpH4pj9jsfTxia1VSuWeyXtf+OnP8d0YI1LHpv8y2NT47wg+n7XiTgh3BvcSffuBWrw==}
     engines: {node: '>=18.0.0'}
 
   vite-node@2.1.6:
@@ -4765,11 +4769,11 @@ snapshots:
 
   '@polka/url@1.0.0-next.28': {}
 
-  '@rollup/pluginutils@5.1.2(rollup@4.27.4)':
+  '@rollup/pluginutils@5.1.3(rollup@4.27.4)':
     dependencies:
       '@types/estree': 1.0.6
       estree-walker: 2.0.2
-      picomatch: 2.3.1
+      picomatch: 4.0.2
     optionalDependencies:
       rollup: 4.27.4
 
@@ -6004,7 +6008,9 @@ snapshots:
     dependencies:
       format: 0.2.2
 
-  fdir@6.4.0: {}
+  fdir@6.4.0(picomatch@4.0.2):
+    optionalDependencies:
+      picomatch: 4.0.2
 
   feed@4.2.2:
     dependencies:
@@ -6114,7 +6120,7 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  imagetools-core@7.0.1: {}
+  imagetools-core@7.0.2: {}
 
   immutable@5.0.2: {}
 
@@ -6816,6 +6822,8 @@ snapshots:
 
   picomatch@2.3.1: {}
 
+  picomatch@4.0.2: {}
+
   pify@2.3.0: {}
 
   pirates@4.0.6: {}
@@ -7364,11 +7372,11 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@4.0.5(svelte@5.2.9)(typescript@5.7.2):
+  svelte-check@4.0.5(picomatch@4.0.2)(svelte@5.2.9)(typescript@5.7.2):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.1
-      fdir: 6.4.0
+      fdir: 6.4.0(picomatch@4.0.2)
       picocolors: 1.1.0
       sade: 1.8.1
       svelte: 5.2.9
@@ -7595,10 +7603,10 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite-imagetools@7.0.4(rollup@4.27.4):
+  vite-imagetools@7.0.5(rollup@4.27.4):
     dependencies:
-      '@rollup/pluginutils': 5.1.2(rollup@4.27.4)
-      imagetools-core: 7.0.1
+      '@rollup/pluginutils': 5.1.3(rollup@4.27.4)
+      imagetools-core: 7.0.2
       sharp: 0.33.5
     transitivePeerDependencies:
       - rollup
