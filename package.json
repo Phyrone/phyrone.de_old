@@ -48,7 +48,7 @@
 		"tailwindcss": "^3.4.13",
 		"typescript": "^5.6.3",
 		"typescript-eslint": "^8.8.1",
-		"vite": "^5.4.8",
+		"vite": "^6.0.0",
 		"vite-imagetools": "^7.0.4",
 		"vitest": "^2.1.2"
 	},
