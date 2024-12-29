@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@fontsource-variable/jetbrains-mono':
         specifier: ^5.1.1
-        version: 5.1.1
+        version: 5.1.2
       '@fontsource/dseg7-classic':
         specifier: ^5.1.0
         version: 5.1.0
@@ -1045,8 +1045,8 @@ packages:
     resolution: {integrity: sha512-zSkKow6H5Kdm0ZUQUB2kV5JIXqoG0+uH5YADhaEHswm664N9Db8dXSi0nMJpacpMf+MyyglF1vnZohpEg5yUtg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@fontsource-variable/jetbrains-mono@5.1.1':
-    resolution: {integrity: sha512-V+1aRFRvuZ66PpO30s8l/2aADKzpV9VRsO3kSZE+rTMvi4vab3cUcPHMN2z+wAvjkYJO71Yf+g3/Y6pSMmQpVQ==}
+  '@fontsource-variable/jetbrains-mono@5.1.2':
+    resolution: {integrity: sha512-syGEJ/N4FFisAXegxtbe1etYpo2T630dqCbYufPf7Dli/hMKSoSUIm3wK4q5RsGFRxWno1WecfnsgZA1jRK0EQ==}
 
   '@fontsource/dseg7-classic@5.1.0':
     resolution: {integrity: sha512-8sfqm3KnwQNXf4csuitqQEMKHyp8G/JILJpc8eqgraRo1L23onDNc2CKJ/OTSHes4+oNZ7PAb/WBohLQEQ1SVw==}
@@ -4853,7 +4853,7 @@ snapshots:
     dependencies:
       levn: 0.4.1
 
-  '@fontsource-variable/jetbrains-mono@5.1.1': {}
+  '@fontsource-variable/jetbrains-mono@5.1.2': {}
 
   '@fontsource/dseg7-classic@5.1.0': {}
 
