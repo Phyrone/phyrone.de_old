@@ -73,7 +73,7 @@ importers:
         version: 11.0.0
       simple-icons:
         specifier: ^14.0.0
-        version: 14.0.0
+        version: 14.0.1
       unified:
         specifier: ^11.0.5
         version: 11.0.5
@@ -3507,8 +3507,8 @@ packages:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
 
-  simple-icons@14.0.0:
-    resolution: {integrity: sha512-29qvtBEvo+xuGxMooUWHEgp7ZvaRrkgPwLdg/B909T1/uoYiUrekOqBRZywAvV2JRlxLUjB6e1gWgtWup7R18Q==}
+  simple-icons@14.0.1:
+    resolution: {integrity: sha512-Pyd2vedjjYTGZCi8Y4a+BeG6ks2qoEwhtJL7t4l6C5DKFxQXRjpLzg7JLBCC44tsk96bXU1XDVEEp+sz58nYlw==}
     engines: {node: '>=0.12.18'}
 
   simple-swizzle@0.2.2:
@@ -7565,7 +7565,7 @@ snapshots:
 
   signal-exit@4.1.0: {}
 
-  simple-icons@14.0.0: {}
+  simple-icons@14.0.1: {}
 
   simple-swizzle@0.2.2:
     dependencies:
