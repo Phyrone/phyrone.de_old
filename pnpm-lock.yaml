@@ -119,7 +119,7 @@ importers:
         version: 1.1.3
       '@types/qs':
         specifier: ^6.9.16
-        version: 6.9.17
+        version: 6.9.18
       '@types/remark-heading-id':
         specifier: ^1.0.0
         version: 1.0.0
@@ -1649,8 +1649,8 @@ packages:
   '@types/persistent-cache@1.1.3':
     resolution: {integrity: sha512-3OdzYYJ4JynRSPRlb89nUngcvwp13f32jQb1SwNQrJrKZfy9woi9MyvfCpsO/HnJ9InpyttTP8sA6vmYTTPTjQ==}
 
-  '@types/qs@6.9.17':
-    resolution: {integrity: sha512-rX4/bPcfmvxHDv0XjfJELTTr+iB+tn032nPILqHm5wbthUUUuVtNGGqzhya9XUxjTP8Fpr0qYgSZZKxGY++svQ==}
+  '@types/qs@6.9.18':
+    resolution: {integrity: sha512-kK7dgTYDyGqS+e2Q4aK9X3D7q234CIZ1Bv0q/7Z5IwRDoADNU81xXJK/YVyLbLTZCoIwUoDoffFeF+p/eIklAA==}
 
   '@types/remark-heading-id@1.0.0':
     resolution: {integrity: sha512-V6OgBN2Uv3kaYHOrBI2+j9xIo6N56bMpIFoKVkGltoJtzHr7Vo8pFxDZxNqUXC5NScV991Iq3BYD52BkCFMY+w==}
@@ -5394,7 +5394,7 @@ snapshots:
     dependencies:
       '@types/node': 22.8.6
 
-  '@types/qs@6.9.17': {}
+  '@types/qs@6.9.18': {}
 
   '@types/remark-heading-id@1.0.0':
     dependencies:
