@@ -33,11 +33,11 @@ importers:
         specifier: ^11.10.0
         version: 11.11.1
       lucide:
-        specifier: ^0.475.0
-        version: 0.475.0
+        specifier: ^0.476.0
+        version: 0.476.0
       lucide-svelte:
-        specifier: ^0.475.0
-        version: 0.475.0(svelte@5.20.4)
+        specifier: ^0.476.0
+        version: 0.476.0(svelte@5.20.4)
       mermaid:
         specifier: ^11.3.0
         version: 11.4.1
@@ -2613,13 +2613,13 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lucide-svelte@0.475.0:
-    resolution: {integrity: sha512-N5+hFTPHaZe9HhqJDxxxODfYuOmI6v+JIowzERcea/uxytN/JZlehVTcINBNp8wMo7l6ov1Jf5srrDbkI/WsJg==}
+  lucide-svelte@0.476.0:
+    resolution: {integrity: sha512-Ph6zoMWjQVJibDrR+DJoT7LR2uEKLPzzGo886OLRk+nCJZESJUvoCWXk0uE6Y9aaamaSFAdI1Cpwslgzk3YYdQ==}
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
 
-  lucide@0.475.0:
-    resolution: {integrity: sha512-86jIup6DQGWX5etGuhLlojx0bu+HbxLvRI5B2SumOBznImMxEXyKF0YpScZ51BOix2gq5LfeO8mnvVVPlK/Fdg==}
+  lucide@0.476.0:
+    resolution: {integrity: sha512-Hq4Q0Rioa2YeIeJU0Hqt0T1M5uBt/K52KaXUg9iGbnqhcIGQt+9Ttht9u0041bkr4ITDQOtYoy5eBsZvFIAvLQ==}
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
@@ -6359,11 +6359,11 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lucide-svelte@0.475.0(svelte@5.20.4):
+  lucide-svelte@0.476.0(svelte@5.20.4):
     dependencies:
       svelte: 5.20.4
 
-  lucide@0.475.0: {}
+  lucide@0.476.0: {}
 
   magic-string@0.30.17:
     dependencies:
