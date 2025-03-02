@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@fontsource-variable/jetbrains-mono':
         specifier: ^5.1.1
-        version: 5.1.2
+        version: 5.2.5
       '@fontsource/dseg7-classic':
         specifier: ^5.1.0
-        version: 5.1.0
+        version: 5.2.5
       '@swc/core':
         specifier: ^1.7.35
         version: 1.11.5
@@ -899,11 +899,11 @@ packages:
     resolution: {integrity: sha512-JubJ5B2pJ4k4yGxaNLdbjrnk9d/iDz6/q8wOilpIowd6PJPgaxCuHBnBszq7Ce2TyMrywm5r4PnKm6V3iiZF+g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@fontsource-variable/jetbrains-mono@5.1.2':
-    resolution: {integrity: sha512-syGEJ/N4FFisAXegxtbe1etYpo2T630dqCbYufPf7Dli/hMKSoSUIm3wK4q5RsGFRxWno1WecfnsgZA1jRK0EQ==}
+  '@fontsource-variable/jetbrains-mono@5.2.5':
+    resolution: {integrity: sha512-G3sN1xq1moZd0JL+hFaA4MEdsiQS+JXC/z7m+EqA5/Fzn5CQlXGUaaNKFGQdDsFuLTnCfW0KOOSWHjygNfjEPw==}
 
-  '@fontsource/dseg7-classic@5.1.0':
-    resolution: {integrity: sha512-8sfqm3KnwQNXf4csuitqQEMKHyp8G/JILJpc8eqgraRo1L23onDNc2CKJ/OTSHes4+oNZ7PAb/WBohLQEQ1SVw==}
+  '@fontsource/dseg7-classic@5.2.5':
+    resolution: {integrity: sha512-HMeQpwRFfptfmAXMAaN4H9lNKMmGHA0TOb8mUpdRAaCiYPYotQFG/bX9heU6cHQ8lG8KfDYv8DE3SUXIQS/wzw==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -4662,9 +4662,9 @@ snapshots:
       '@eslint/core': 0.12.0
       levn: 0.4.1
 
-  '@fontsource-variable/jetbrains-mono@5.1.2': {}
+  '@fontsource-variable/jetbrains-mono@5.2.5': {}
 
-  '@fontsource/dseg7-classic@5.1.0': {}
+  '@fontsource/dseg7-classic@5.2.5': {}
 
   '@humanfs/core@0.19.1': {}
 
